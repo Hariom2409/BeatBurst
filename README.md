@@ -34,7 +34,7 @@ This is a simple music player website created using HTML, CSS, and JavaScript.
 
 ## Preview
 
-![Music Player Website Preview](preview.png)
+![Music Player Website Preview](preview.png).
 
 
 ## License
