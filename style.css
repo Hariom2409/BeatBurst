@@ -40,17 +40,18 @@ nav ul{
     color: white;
    font-family: 'Varela Round', sans-serif;
    display: flex;
-   margin: 23px 23px 23px 23px;
-   width: 85%;
+   margin: 23px auto;
+   width: 92%;
    border-radius: 12px;
-   padding: 80px;
+   padding: 34px;
    background-image: url("./covers/crowd-1056764_640.jpg");
 }
 
 .bottom{
-    position: sticky;
+    position:fixed;
+    width: 100vw;
     bottom: 0;
-    height: 130px;
+    height: 120px;
     background-color: black;
     color: white;
     display: flex;
@@ -67,30 +68,34 @@ nav ul{
 }
 
 #myProgressBar{
-    width: 80vw; 
+    width: 95vw; 
     cursor: pointer;
 }
 
 .songItemContainer{
-    margin-top: 74px;
+    margin-top: 22px;
 }
 
 .songItem{
-    height: 50px;
-    display: flex;
-    background-color: white;
+    height: 180px;
+    width: 150px;
+    display:inline-table;
+    background-color:#a6ff00;
     
     color: black;
-    margin: 12px 0;
+    margin:12px 0;
     justify-content: space-between;
     align-items: center;
-    border-radius: 34px;
+    border-radius: 25px;
 }
 
 .songItem img{
-    width: 43px;
-    margin: 0 23px;
+    display: inline-flexbox;
+    width:110px;
+    height: 110px;
     border-radius: 10px;
+    margin:10px 20px 0px 20px;
+
 }
 
 .timestamp{
@@ -102,7 +107,7 @@ nav ul{
 }
 
 .songInfo{
-    position: absolute;
+    position:absolute;
     left: 10vw;
     font-family: 'Varela Round', sans-serif;
 }
