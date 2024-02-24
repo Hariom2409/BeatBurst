@@ -32,9 +32,9 @@ This is a simple music player website created using HTML, CSS, and JavaScript.
 - CSS
 - JavaScript
 
-## Preview
+## Preview Link
 
-![Music Player Website Preview](preview.png).
+Click on this link👉https://hariom2409.github.io/BeatBurst/
 
 
 ## License
