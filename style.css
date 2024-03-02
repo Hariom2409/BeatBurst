@@ -75,7 +75,6 @@ nav ul{
 .songItemContainer{
     margin-top: 22px;
 }
-
 .songItem{
     height: 180px;
     width: 150px;
@@ -89,6 +88,13 @@ nav ul{
     border-radius: 25px;
 }
 
+.songItem:hover{
+    cursor: pointer;
+    background-color: #7eb809;
+}
+.songItem:active{
+    background-color: aliceblue;
+}
 .songItem img{
     display: inline-flexbox;
     width:110px;
